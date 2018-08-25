@@ -4,6 +4,35 @@ Really simple text formatting to use as InputFormatters in TextField and TextFor
 
 ## Getting Started
 
-For help getting started with Flutter, view our online [documentation](https://flutter.io/).
+In your flutter project, add the dependency:
+```
+dependencies:
+  masked_text_input_formatter: "0.0.1"
+```
 
-For help on editing package code, view the [documentation](https://flutter.io/developing-packages/).
+## Usage Example
+
+* Credit Card Number
+
+```dart
+TextField(
+  inputFormatters: [
+    MaskedTextInputFormatter(
+      mask: 'xxxx-xxxx-xxxx-xxxx',
+      separator: '-',
+    ),
+  ],
+);
+```
+
+* Date
+```dart
+TextField(
+  inputFormatters: [
+    MaskedTextInputFormatter(
+      mask: 'MM/YY',
+      separator: '/',
+    ),
+  ],
+);
+```
