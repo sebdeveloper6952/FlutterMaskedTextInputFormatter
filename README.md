@@ -12,7 +12,12 @@ dependencies:
 
 ## Usage Example
 
-* Credit Card Number
+Import masked_text_input_formatter.dart:
+```dart
+import 'masked_text_input_formatter/masked_text_input_formatter.dart
+```
+
+### Credit Card Number
 
 ```dart
 TextField(
@@ -25,7 +30,7 @@ TextField(
 );
 ```
 
-* Date
+### Date
 ```dart
 TextField(
   inputFormatters: [
