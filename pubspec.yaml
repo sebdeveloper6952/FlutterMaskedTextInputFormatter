@@ -4,6 +4,9 @@ version: 0.0.1
 author: Sebastian Arriola
 homepage: https://github.com/sebdeveloper6952/FlutterMaskedTextInputFormatter
 
+environment:
+  sdk: ">=2.0.0-dev.35 <3.0.0"
+
 dependencies:
   flutter:
     sdk: flutter
