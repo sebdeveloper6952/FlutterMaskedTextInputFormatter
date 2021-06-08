@@ -1,11 +1,11 @@
 name: masked_text_input_formatter
 description: Package that provides text formatting for TextField and TextFormField.
-version: 0.0.1
+version: 1.0.0
 author: Sebastian Arriola <sebdeveloper6952@gmail.com>
 homepage: https://github.com/sebdeveloper6952/FlutterMaskedTextInputFormatter
 
 environment:
-  sdk: ">=2.0.0-dev.35 <3.0.0"
+  sdk: '>=2.12.0 <3.0.0'
 
 dependencies:
   flutter:
